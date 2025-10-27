@@ -1,4 +1,6 @@
-
+function square(x, y) {
+    return "Square of x :" + (x * x) + ", Square of y :" + (y * y);
+}
 
 function subtract(a, b) {
     return a - b;
@@ -12,9 +14,6 @@ function divide(a, b) {
     return a / b;
 }
 
-function square(x, y) {
-    return "Square of x :" + (x * x) + ", Square of y :" + (y * y);
-}
 
 let a = 7;
 let b = 3;
